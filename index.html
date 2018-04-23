@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Parallax Practice | By Dale Holstein</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/w3-favicon.png" />
+</head>
+
+<body>
+	<a name="home">
+		<!--- Start Navigation -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script>
+		<div class="nav-outer">
+			<div class="nav-wrap">
+				<nav class="navigation">
+					<div class="logo">
+						<img src="img/logo.png" alt="logo">
+					</div>
+					<div class='nav' nav-menu-style="yoga">
+						<ul class="nav-menu">
+							<li>
+								<a href="#home">Home</a>
+							</li>
+							<li>
+								<a href="#about">About</a>
+							</li>
+							<li>
+								<a href="#services">Services</a>
+							</li>
+							<li>
+								<a href="#reviews">Reviews</a>
+							</li>
+							<li>
+								<a href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="nav-clear"></div>
+		<!--- End Navigation -->
+		<div class="clearfix"></div>
+		<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script>
+		<!--For Image Slider-->
+		<div class="slide-wrap">
+			<section class="slider">
+				<ul class="slider1">
+					<li>
+						<img src="https://www.w3newbie.com/wp-content/uploads/slider-image-3.png" alt="slider image 3">
+					</li>
+					<li>
+						<img src="https://www.w3newbie.com/wp-content/uploads/slider-image-1.png" alt="slider image 1">
+					</li>
+					<li>
+						<img src="https://www.w3newbie.com/wp-content/uploads/slider-image-2.png" alt="slider image 2">
+					</li>
+				</ul>
+			</section>
+		</div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto: true,
+				pager: false,
+
+			});
+			$('.slider2').bxSlider({
+				pager: false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto: true,
+				pager: false,
+				controls: false,
+			});
+		</script>
+		<!--- End Slider -->
+
+		<a name="about"></a>
+
+		<!-- Start Banner Wrapper -->
+		<div class="banner-wrapper">
+			<h1>Welcome To Our Website</h1>
+			<div class="one-half">
+				<h3>Heading Title Section</h3>
+				<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.
+					Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis
+					soulless creaturas, imo evil stalking monstra adventus.
+				</p>
+			</div>
+			<div class="one-half">
+				<h3>Heading Title Section</h3>
+				<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.
+					Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis
+					soulless creaturas, imo evil stalking monstra adventus.
+				</p>
+			</div>
+		</div>
+		<!-- End Banner Wrapper -->
+		<div class="clearfix"></div>
+		<!-- Start Parallax Section -->
+		<section class="parallax-1">
+			<div class="parallax-inner">
+				<section class="one-third">
+					<h3>Heading Title</h3>
+					<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.
+						Summus brains sit​​.</p>
+				</section>
+				<section class="one-third">
+					<h3>Heading Title</h3>
+					<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.
+						Summus brains sit​​.</p>
+				</section>
+				<section class="one-third">
+					<h3>Heading Title</h3>
+					<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.
+						Summus brains sit​​.</p>
+				</section>
+			</div>
+		</section>
+		<!-- End Parallax Section -->
+		<div class="clearfix"></div>
+		<!-- Start Banner Wrapper -->
+		<section class="left-col">
+			<h1>Heading Title</h1>
+			<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus
+				brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless
+				creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse.</p>
+			<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus
+				brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless
+				creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse.</p>
+			<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus
+				brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless
+				creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse.</p>
+		</section>
+		<section class="sidebar">
+			<img src="https://www.w3newbie.com/wp-content/uploads/beach-building.jpg" alt="Burj Al Arab">
+		</section>
+		<!-- End Banner Wrapper -->
+		<div class="clearfix"></div>
+		<!-- Start Parallax Section -->
+		<section class="parallax-2">
+			<div class="parallax-inner">
+				<section class="one-third">
+					<h3>Heading Title</h3>
+					<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.
+						Summus brains sit​​.</p>
+				</section>
+				<section class="one-third">
+					<h3>Heading Title</h3>
+					<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.
+						Summus brains sit​​.</p>
+				</section>
+				<section class="one-third">
+					<h3>Heading Title</h3>
+					<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.
+						Summus brains sit​​.</p>
+				</section>
+			</div>
+		</section>
+		<!-- End Parallax Section -->
+		<div class="clearfix"></div>
+		<a name="contact"></a>
+		<!-- Start Banner Wrapper -->
+		<div class="banner-wrapper">
+			<h1>Full Width Heading Title Section</h1>
+			<section class="one-third">
+				<img src="https://www.w3newbie.com/wp-content/uploads/beach-camera.png" alt="beach camera">
+				<h3>Heading Title Text</h3>
+				<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.
+					Summus brains sit​​.</p>
+			</section>
+			<section class="one-third">
+				<img src="https://www.w3newbie.com/wp-content/uploads/girl-camera.png" alt="girl camera">
+				<h3>Heading Title Text</h3>
+				<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.
+					Summus brains sit​​.</p>
+			</section>
+			<section class="one-third">
+				<img src="https://www.w3newbie.com/wp-content/uploads/girl-beach.png" alt="girl beach">
+				<h3>Heading Title Text</h3>
+				<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.
+					Summus brains sit​​.</p>
+			</section>
+		</div>
+		<!-- End Banner Wrapper -->
+		<div class="clearfix"></div>
+		<footer>
+			<p>&copy; Parallax Practice</p>
+		</footer>
+</body>
+
+</html>
