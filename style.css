@@ -56,6 +56,7 @@ img {
 
 .slider1 img {
   min-width: 100%;
+  max-height: 90vh;
   margin: 0 auto;
 }
 
@@ -142,8 +143,8 @@ img {
 }
 
 .parallax-2 {
-  background: url("https://www.w3newbie.com/wp-content/uploads/black-pattern.jpg")
-    repeat fixed 100%;
+  background: url("img/8 - Dendi Yell.jpg") repeat fixed 100%;
+  background-size: 100%;
   text-align: center;
 }
 
