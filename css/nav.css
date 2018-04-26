@@ -10,6 +10,11 @@
 }
 
 /*--- Start Navigation Style --*/
+
+.logo:hover {
+  cursor: pointer;
+}
+
 .nav-outer {
   width: 100%;
   height: 67px;
