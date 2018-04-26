@@ -183,11 +183,20 @@ footer {
   margin-top: 5%;
   padding: 1% 0;
   overflow: auto;
+  text-align: center;
 }
 
 footer p {
   color: #fff;
   text-align: center;
+}
+
+.list li {
+  display: inline-block;
+}
+
+i {
+  color: #fff;
 }
 
 /* Media Queries */
