@@ -129,6 +129,21 @@ img {
   text-align: center;
 }
 
+.img-contain {
+  height: 300px;
+  margin-bottom: -15%;
+}
+
+.img-contain img {
+  max-height: 200px;
+  min-width: 100%;
+}
+
+#eh-logo {
+  position: relative;
+  top: 20%;
+}
+
 .left-col {
   width: 60%;
   float: left;
