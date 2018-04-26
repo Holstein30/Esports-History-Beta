@@ -1,5 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Hind); /*--- Body Font --*/
 @import url(https://fonts.googleapis.com/css?family=Nobile); /*--- Heading Font --*/
+/* Fonts */
+
+@font-face {
+  font-family: Primary;
+  src: url(fonts/Sabo-Regular.otf);
+}
+@font-face {
+  font-family: Secondary;
+  src: url(fonts/Sabo-Filled.otf);
+}
+@font-face {
+  font-family: Heading;
+  src: url(fonts/Halo.ttf);
+}
+@font-face {
+  font-family: Main;
+  src: url(fonts/Halo-Outline.ttf);
+}
 
 * {
   border: 0;
@@ -16,8 +34,8 @@ body {
 
 h1 {
   color: #4a4444;
-  font-family: "Nobile", sans-serif;
-  font-size: 175%;
+  font-family: Secondary, sans-serif;
+  font-size: 200%;
   letter-spacing: 3px;
   padding: 3% 0;
   text-align: center;
@@ -26,10 +44,11 @@ h1 {
 
 h3 {
   color: #4a4444;
-  font-family: "Nobile", sans-serif;
+  font-family: Heading, sans-serif;
   letter-spacing: 1%;
   text-align: center;
   text-transform: uppercase;
+  font-size: 125%;
 }
 
 p {
